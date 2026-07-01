@@ -33,3 +33,7 @@ TEST_F(PrimeFixture, of9) {
 	expected = { 3,3 };
 	EXPECT_EQ(expected, primefacot.of(9));
 }
+TEST_F(PrimeFixture, of12) {
+	expected = { 2,2,3 };
+	EXPECT_EQ(expected, primefacot.of(12));
+}
